@@ -1,0 +1,15 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/map"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  class="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+<!-- 
+    <ru.biovamp.widget.CircleLayout
+        android:id="@+id/OsmMap_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+            </ru.biovamp.widget.CircleLayout>
+ -->

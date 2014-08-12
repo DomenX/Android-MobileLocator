@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="13dp" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:text="Location Name"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+
+    <!-- Input Name -->
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="32dip"
+        android:layout_marginBottom="15dip"
+        android:layout_weight="0.00"
+        android:background="#FFFFFF"
+        android:singleLine="true" />
+
+    <!-- Type Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:text="Location type"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+
+    <!-- Input type -->
+
+    <Spinner
+        android:id="@+id/inputSpinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingTop="10dip" />
+
+    <!-- Description Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:text="Description"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+
+    <!-- Input description -->
+
+    <EditText
+        android:id="@+id/inputDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:background="#FFFFFF"
+        android:gravity="top"
+        android:lines="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:layout_weight="0.30"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1.18"
+        android:background="@drawable/background" >
+
+        <!-- Button send update to database -->
+
+        <Button
+            android:id="@+id/UpdateButon"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:background="#C0C0C0"
+            android:layout_weight="0.03"
+            android:text="Update Location" />
+
+        <!-- Button reset information -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="0.07"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ResetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="0.03"
+            android:background="#C0C0C0"
+            android:text="Reset Info" />
+
+    </LinearLayout>
+
+</LinearLayout>

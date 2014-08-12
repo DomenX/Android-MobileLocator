@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <ImageView
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:layout_gravity="center"
+	 android:src="@drawable/menu_logo" />	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:stretchColumns="0,1,2">
+		<TableRow
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<ImageButton
+				android:id="@+id/ibtn_menu_search"
+				android:paddingTop="15px"
+				android:paddingBottom="15px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@drawable/menu_search"/>
+			<ImageButton
+				android:id="@+id/ibtn_menu_category"
+				android:paddingTop="15px"
+				android:paddingBottom="15px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@drawable/menu_category"/>
+			<ImageButton
+				android:id="@+id/ibtn_menu_view_mode"
+				android:paddingTop="15px"
+				android:paddingBottom="15px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@drawable/menu_view_mode"/>
+		</TableRow>
+		<TableRow
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+			<ImageButton
+				android:id="@+id/ibtn_menu_display_path"
+				android:paddingTop="15px"
+				android:paddingBottom="15px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@drawable/menu_display_path" />
+			<ImageButton
+				android:id="@+id/ibtn_menu_update_location"
+				android:paddingTop="15px"
+				android:paddingBottom="15px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:src="@drawable/menu_update_location"/>
+
+			<ImageButton
+			    android:id="@+id/ibtn_menu_exit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:paddingBottom="15px"
+			    android:paddingTop="15px"
+			    android:src="@drawable/menu_exit" />
+
+		</TableRow>
+	</TableLayout>
+	
+</LinearLayout>
